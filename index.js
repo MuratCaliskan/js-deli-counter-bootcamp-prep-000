@@ -17,6 +17,9 @@ function nowServing(katzDeli) {
   return (`Currently serving ${katzDeli.shift()}.`);
 }
 
-function currentLine() {
-  
+function currentLine(katzDeli) {
+  let i = 0;
+  while (i < katzDeli.length) {
+    i++;
+  }
 }
